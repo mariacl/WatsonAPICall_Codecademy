@@ -25,8 +25,8 @@ def analyze(handle):
 
 #filters for English tweets, and encodes Unicode Twitter format into UTF-8. Then concatenates all tweets into one long string.
 	for status in statuses:
-    if (status.lang =='en'): #English tweets
-        	text += status.text.encode('utf-8')
+            if (status.lang =='en'): #English tweets
+            text += status.text.encode('utf-8')
 
 	pi_username = "f1e67009-45f7-4646-8cae-a5fb773346ff"
 	pi_password = "0t2mEQ703FLc"
