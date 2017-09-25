@@ -60,6 +60,7 @@ def flatten(orig):
                 compared_data[keys]=abs(dict1[keys] - dict2[keys])
     return compared_data
   
+  #select 2 Twitter accounts
   user_handle = "@Codecademy"
   celebrity_handle = "@IBM"
   
