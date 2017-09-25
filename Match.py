@@ -1,3 +1,4 @@
+#Comparing tweets from 2 different users to produce a Personality Insights report with IBM Watson API. Code from Codecademy online course.
 import sys
 import operator
 import requests
